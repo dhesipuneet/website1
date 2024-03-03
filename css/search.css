@@ -1,5 +1,7 @@
 
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: hotpink;
     height: 100vh;
@@ -17,12 +19,14 @@ body{
 .search .btn{
     position: absolute;
     top: 0;
-    left: 220px;
+    left: 0px;
     font-space: 24px;
     background-color: white;
     border: 0;
     height: 50px;
     width: 50px;
+    cursor: pointer;
+    transition: transform 1s ease;
 
 }
 
@@ -31,8 +35,19 @@ body{
     border: 0;
     font-size: 18px;
     height: 50px;
-    width: 200px;
+    width: 50px;
     padding: 15px;
-    box-sizin
+    transition: transform 1s ease;
 
+}
+.search .input:focus {
+    outline: none;
+}
+
+.search.active .input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translate(198px);
 }
