@@ -10,15 +10,18 @@ body{
 }
 
 .search {
-    height: 200px;
-    width: 300px;
-    background-color: white;
+    height: 50px;
     position: relative;
 }
 
 .search .btn{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    left: 180px;
+    font-space: 24px;
+    background-color: white;
+    border: 0;
+    height; 50px;
+    width: 50px;
 
 }
