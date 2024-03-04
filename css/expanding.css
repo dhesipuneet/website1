@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 body {
     height: 100vh;
@@ -22,9 +24,6 @@ body {
     color: deeppink;
     cursor: pointer;
     flex: 0.5;
-    
-
-
-
+    margin: 10px;
 }
 }
