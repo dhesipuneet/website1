@@ -12,3 +12,12 @@ sounds.forEach(sound=> {
     document.getElementById('buttons').appenedChild(btn)
 })
 
+function stopSongs() {
+sounds.forEach(sound => {
+    song = document.getElementById(sound)
+    song.pause()
+    song.currentTime = 0
+
+})
+
+}
