@@ -21,3 +21,9 @@ body {
     font-family: "Oswald", sans-serif;
 
 }
+
+.btn:hover {
+    opacity: 0.9;
+    
+}
+
