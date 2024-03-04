@@ -20,7 +20,7 @@ body {
     width: 100vw;
     position: absolute;
     z-index: -1;
-    background-image: url("images/flowers.jpg");
+    background-image: url("images/flowers.avif");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
