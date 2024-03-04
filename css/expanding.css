@@ -31,9 +31,10 @@ body {
     flex: 0.5;
     margin: 10px;
     position: relative;
+    transition: flex 1s ease in;
 }
 
-.panel.active {
+.panel.active  {
     flex: 5;
 }
 
