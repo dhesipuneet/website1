@@ -90,7 +90,12 @@ header p {
 }
 
 button,
-input {
+input[type='submit'] {
     background-color: var
     (--secondary-color):
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
 }
