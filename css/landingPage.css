@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lemonada:wght@300..700&display=swap');
 
 :root {
-    --primary-color: deeppink;
-    --secondard-color: pink;
+    --primary-color: rgb(48,51,107);
+    --secondary-color: #be2edd;
     --modal-duration: 1s;
-
 }
-*{
+
+* {
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Madimi One", sans-serif;
-    margin: 0;
-    transition: transform 0.3 ease;
 
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    transition: transform 0.3s ease;
 }
 
 body.show-nav {
     transform: translateX(200px);
 }
 
-nav{
-    background-color: deeppink;
+nav {
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -33,15 +32,14 @@ nav{
     z-index: 100;
     color: white;
     transform: translateX(-100%);
-
 }
 
-nav.logo {
+nav .logo {
     padding: 30px 0;
     text-align: center;
 }
 
-nav.logo img {
+nav .logo img {
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -65,14 +63,9 @@ nav ul {
 nav ul li {
     padding: 20px;
     border-bottom: 2px solid rgba(200,200,200,0.1);
-    z-index: 100;
 }
 
-nav ul l:nth-of-type(1) {
-    border-top: 2px solid rgba(200,200,200,0.1);
-}
-
-nav ul li:nth-of-type(1){
+nav ul li:nth-of-type(1) {
     border-top: 2px solid rgba(200,200,200,0.1);
 }
 
@@ -81,9 +74,8 @@ header {
     color: white;
     font-size: 130%;
     position: relative;
-    paddings: 40px 15px;
+    padding: 40px 15px;
     text-align: center;
-
 }
 
 header h1 {
@@ -96,8 +88,7 @@ header p {
 
 button,
 input[type='submit'] {
-    background-color: var
-    (--secondary-color):
+    background-color: var(--secondary-color);
     border: 0;
     border-radius: 5px;
     color: white;
@@ -106,7 +97,7 @@ input[type='submit'] {
 }
 
 .toggle {
-    backgroung-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
     position: absolute;
     top: 20px;
     left: 20px;
@@ -116,6 +107,7 @@ input[type='submit'] {
     padding: 12px 30px;
     font-size: 20px;
 }
+
 .container {
     padding: 15px;
     margin: 0 auto;
@@ -127,8 +119,8 @@ input[type='submit'] {
     position: fixed;
     top: 0;
     bottom: 0;
+    left:0;
     right: 0;
-    background: 0;
     background-color: rgba(0,0,0,0.6);
     display: none;
 }
@@ -145,23 +137,25 @@ input[type='submit'] {
     transform: translate(-50%, -50%);
     width: 400px;
     max-width: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3)
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     animation-name: modalopen;
-    animatoon-duration: var(--modal-duration)
-}
-.modal-header {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 15px;
+    animation-duration: var(--modal-duration);
 }
 
 @keyframes modalopen {
-    from{
-        opacity:0;
+    from {
+        opacity: 0;
     }
     to {
         opacity: 1;
     }
+}
+
+.modal-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
 }
 
 modal-header h3 {
@@ -194,5 +188,6 @@ modal-header h3 {
     background: transparent;
     font-size: 25px;
 }
+
 
 
