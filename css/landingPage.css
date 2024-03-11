@@ -133,7 +133,7 @@ input[type='submit'] {
     display: none;
 }
 
-.modal-container.show-model {
+.modal-container.show-modal {
     display: block;
 }
 
@@ -147,7 +147,7 @@ input[type='submit'] {
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0,0,0,0.3)
     animation-name: modalopen;
-    animatoon-duration: var(--model-duration)
+    animatoon-duration: var(--modal-duration)
 }
 .modal-header {
     background-color: var(--primary-color);
