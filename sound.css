@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
 
 body {
-    background-color: rgb(161,100,223);
+    background-color: lightpink;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,13 +10,13 @@ body {
 }
 
 .btn {
-    background-color: rebeccapurple;
+    background-color: lightpink;
     font-size: 1.2rem;
     padding: 1.5rem 3rem;
     margin: 1rem;
     border-radius: 5px;
     border: none;
-    color: rgh(255, 255, 255);
+    color: lightpink;
     cursor: pointer;
     font-family: "Oswald", sans-serif;
 
@@ -24,6 +24,6 @@ body {
 
 .btn:hover {
     opacity: 0.9;
-    
+
 }
 
