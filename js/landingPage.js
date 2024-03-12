@@ -4,24 +4,19 @@ modal = document.getElementById('modal')
 close = document.getElementById('close')
 
 
-//toggle nav
-toggle.addEventListner('click', () => {
+toggle.addEventListener('click', () => {
     document.body.classList.toggle('show-nav')
 })
 
-//show modal
-open.addEventListerner('click', () => {
+open.addEventListener('click', () => {
     modal.classList.add('show-modal')
 })
 
-
-// Hide modal
 close.addEventListener('click', () => {
     modal.classList.remove('show-modal')
 })
 
-//hide modal on outside click
-.window.addEventListner('click', (e) => {
+window.addEventListener('click', (e) => {
     if (e.target == modal) {
         modal.classList.remove('show-modal')
     }
