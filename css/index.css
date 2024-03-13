@@ -19,7 +19,7 @@ body {
 }
 
 .hero {
-    background-color: orange;
+    background-color: rgba(250, 173, 105);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
