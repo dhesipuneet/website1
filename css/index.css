@@ -18,11 +18,11 @@ body {
 }
 
 .hero {
-    background-image: url(images/journey.avif);
+    background-image: url(images/index.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    height: 100vh;
+    height: 60vh;
     color: white;
     display: flex;
     justify-content: center;
