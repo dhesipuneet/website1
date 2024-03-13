@@ -13,12 +13,13 @@ body {
 }
 
 .container {
+    color: deeppink;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .hero {
-    background-image: url(images/index.jpeg);
+    background-color: orange;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -40,7 +41,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: ;
     z-index: -1;
 }
 
