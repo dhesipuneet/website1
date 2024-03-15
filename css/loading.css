@@ -10,6 +10,13 @@ body {
 
 
 }
+
+.HomePage {
+    position: absolute;
+    bottom: 20px;
+    font: 200%;
+}
+
 .loading-text {
     font-size: 50px;
     color: deeppink;
